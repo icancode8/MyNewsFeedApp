@@ -18,16 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // news ArrayList using the NewsFeed class
-        ArrayList<News> news = new ArrayList<>();
-        // custom format from the NewsFeed class
-        news.add(new News("title", "news", "Feb 2, 2016", "author","https://developer.android.com/studio"));
-        news.add(new News("title", "news", "Feb 2, 2016", "author","https://developer.android.com/studio"));
-        news.add(new News("title", "news", "Feb 2, 2016", "author","https://developer.android.com/studio"));
-        news.add(new News("title", "news", "Feb 2, 2016", "author","https://developer.android.com/studio"));
-        news.add(new News("title", "news", "Feb 2, 2016", "author","https://developer.android.com/studio"));
-        news.add(new News("title", "news", "Feb 2, 2016", "author","https://developer.android.com/studio"));
-        news.add(new News("title", "news", "Feb 2, 2016", "author","https://developer.android.com/studio"));
+        // Get the list of earthquakes from {@link QueryUtils}
+        ArrayList<News> news = QueryUtils.extractNews();
 
         // Create a variable for the ListView ID in activity_main.xml
         ListView newsListView = findViewById(R.id.list);
