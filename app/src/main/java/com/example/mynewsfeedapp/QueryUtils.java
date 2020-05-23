@@ -11,7 +11,8 @@ import java.util.ArrayList;
 
 public class QueryUtils {
 
-    /** Sample JSON response for 'the guardian' query */
+    /** Sample JSON response for 'the guardian' query
+     * For the author details to show, you need to use the "show-tags-contributor" parameter in your URL.*/
 
     private static final String JSON_RESPONSE = "{\n" +
             "  \"response\": {\n" +
