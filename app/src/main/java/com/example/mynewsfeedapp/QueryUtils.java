@@ -18,142 +18,310 @@ public class QueryUtils {
             "  \"response\": {\n" +
             "    \"status\": \"ok\",\n" +
             "    \"userTier\": \"developer\",\n" +
-            "    \"total\": 2192465,\n" +
+            "    \"total\": 35506,\n" +
             "    \"startIndex\": 1,\n" +
             "    \"pageSize\": 10,\n" +
             "    \"currentPage\": 1,\n" +
-            "    \"pages\": 219247,\n" +
-            "    \"orderBy\": \"newest\",\n" +
+            "    \"pages\": 3551,\n" +
+            "    \"orderBy\": \"relevance\",\n" +
             "    \"results\": [\n" +
             "      {\n" +
-            "        \"id\": \"lifeandstyle/2020/may/16/what-links-a-cave-bear-with-a-dire-wolf-the-weekend-quiz\",\n" +
+            "        \"id\": \"football/2020/may/14/football-quiz-world-cup-heroes-club-careers\",\n" +
             "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"lifeandstyle\",\n" +
-            "        \"sectionName\": \"Life and style\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:24Z\",\n" +
-            "        \"webTitle\": \"What links a cave bear with a dire wolf? The Weekend quiz\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/lifeandstyle/2020/may/16/what-links-a-cave-bear-with-a-dire-wolf-the-weekend-quiz\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/lifeandstyle/2020/may/16/what-links-a-cave-bear-with-a-dire-wolf-the-weekend-quiz\",\n" +
+            "        \"sectionId\": \"football\",\n" +
+            "        \"sectionName\": \"Football\",\n" +
+            "        \"webPublicationDate\": \"2020-05-14T09:13:28Z\",\n" +
+            "        \"webTitle\": \"Football quiz: World Cup heroes' club careers\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/football/2020/may/14/football-quiz-world-cup-heroes-club-careers\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/football/2020/may/14/football-quiz-world-cup-heroes-club-careers\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/niall-mcveigh\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Niall McVeigh\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/niall-mcveigh\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/niall-mcveigh\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Niall McVeigh is a freelance football writer. He recently won the Guardian's Who wants to be an MBM-er? competition</p>\",\n" +
+            "            \"firstName\": \"mcveigh\",\n" +
+            "            \"lastName\": \"niall\"\n" +
+            "          }\n" +
+            "        ],\n" +
             "        \"isHosted\": false,\n" +
-            "        \"pillarId\": \"pillar/lifestyle\",\n" +
-            "        \"pillarName\": \"Lifestyle\"\n" +
+            "        \"pillarId\": \"pillar/sport\",\n" +
+            "        \"pillarName\": \"Sport\"\n" +
             "      },\n" +
             "      {\n" +
-            "        \"id\": \"society/2020/may/16/i-flew-to-greece-and-began-solo-ivf-then-the-world-shut-down\",\n" +
+            "        \"id\": \"football/2020/mar/26/football-quiz-guess-missing-clubs-goalkeepers-career-paths\",\n" +
             "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"society\",\n" +
-            "        \"sectionName\": \"Society\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:24Z\",\n" +
-            "        \"webTitle\": \"I flew to Greece and began solo IVF. Then the world shut down\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/society/2020/may/16/i-flew-to-greece-and-began-solo-ivf-then-the-world-shut-down\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/society/2020/may/16/i-flew-to-greece-and-began-solo-ivf-then-the-world-shut-down\",\n" +
+            "        \"sectionId\": \"football\",\n" +
+            "        \"sectionName\": \"Football\",\n" +
+            "        \"webPublicationDate\": \"2020-03-26T15:27:28Z\",\n" +
+            "        \"webTitle\": \"Football quiz: guess the missing clubs in these goalkeepers' careers\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/football/2020/mar/26/football-quiz-guess-missing-clubs-goalkeepers-career-paths\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/football/2020/mar/26/football-quiz-guess-missing-clubs-goalkeepers-career-paths\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/niall-mcveigh\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Niall McVeigh\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/niall-mcveigh\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/niall-mcveigh\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Niall McVeigh is a freelance football writer. He recently won the Guardian's Who wants to be an MBM-er? competition</p>\",\n" +
+            "            \"firstName\": \"mcveigh\",\n" +
+            "            \"lastName\": \"niall\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"isHosted\": false,\n" +
+            "        \"pillarId\": \"pillar/sport\",\n" +
+            "        \"pillarName\": \"Sport\"\n" +
+            "      },\n" +
+            "      {\n" +
+            "        \"id\": \"world/2020/apr/06/ministers-seeking-to-smear-civil-servants-over-coronavirus-handling\",\n" +
+            "        \"type\": \"article\",\n" +
+            "        \"sectionId\": \"world\",\n" +
+            "        \"sectionName\": \"World news\",\n" +
+            "        \"webPublicationDate\": \"2020-04-06T14:23:12Z\",\n" +
+            "        \"webTitle\": \"UK ministers accused of prioritising careers over lives of coronavirus victims\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/world/2020/apr/06/ministers-seeking-to-smear-civil-servants-over-coronavirus-handling\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/world/2020/apr/06/ministers-seeking-to-smear-civil-servants-over-coronavirus-handling\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/rajeev-syal\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Rajeev Syal\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/rajeev-syal\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/rajeev-syal\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Rajeev Syal covers Whitehall and works on off-diary stories from the lobby for the Guardian</p>\",\n" +
+            "            \"bylineImageUrl\": \"https://uploads.guim.co.uk/2017/12/27/Rajeev-Syal.jpg\",\n" +
+            "            \"bylineLargeImageUrl\": \"https://uploads.guim.co.uk/2017/12/27/Rajeev_Syal,_R.png\",\n" +
+            "            \"firstName\": \"Rajeev\",\n" +
+            "            \"lastName\": \"Syal\"\n" +
+            "          }\n" +
+            "        ],\n" +
             "        \"isHosted\": false,\n" +
             "        \"pillarId\": \"pillar/news\",\n" +
             "        \"pillarName\": \"News\"\n" +
             "      },\n" +
             "      {\n" +
-            "        \"id\": \"money/2020/may/16/cash-could-be-the-latest-victim-of-coronavirus-and-may-never-recover\",\n" +
+            "        \"id\": \"world/2020/apr/07/politicians-and-public-figures-return-to-medical-careers-to-help-coronavirus-effort\",\n" +
             "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"money\",\n" +
-            "        \"sectionName\": \"Money\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:23Z\",\n" +
-            "        \"webTitle\": \"Cash could be the latest victim of coronavirus – and may never recover | Patrick Collinson\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/money/2020/may/16/cash-could-be-the-latest-victim-of-coronavirus-and-may-never-recover\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/money/2020/may/16/cash-could-be-the-latest-victim-of-coronavirus-and-may-never-recover\",\n" +
+            "        \"sectionId\": \"world\",\n" +
+            "        \"sectionName\": \"World news\",\n" +
+            "        \"webPublicationDate\": \"2020-04-07T04:00:15Z\",\n" +
+            "        \"webTitle\": \"Politicians and public figures return to medical careers to help coronavirus effort\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/world/2020/apr/07/politicians-and-public-figures-return-to-medical-careers-to-help-coronavirus-effort\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/world/2020/apr/07/politicians-and-public-figures-return-to-medical-careers-to-help-coronavirus-effort\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/rorycarroll\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Rory Carroll\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/rorycarroll\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/rorycarroll\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Rory Carroll is the Guardian's Ireland correspondent. Click <a href=\\\"https://www.theguardian.com/pgp/PublicKeys/Rory%20Carroll.pub.txt\\\">here</a> for Rory's public key. Twitter&nbsp;<a href=\\\"https://twitter.com/rorycarroll72\\\">@rorycarroll72</a></p>\",\n" +
+            "            \"bylineImageUrl\": \"https://static.guim.co.uk/sys-images/Guardian/Pix/contributor/2014/11/14/1415969428559/Rory-Carroll.jpg\",\n" +
+            "            \"bylineLargeImageUrl\": \"https://uploads.guim.co.uk/2017/10/09/Rory-Carroll,-L.png\",\n" +
+            "            \"firstName\": \"Carroll\",\n" +
+            "            \"lastName\": \"Rory\",\n" +
+            "            \"twitterHandle\": \"rorycarroll72\"\n" +
+            "          },\n" +
+            "          {\n" +
+            "            \"id\": \"profile/kim-willsher\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Kim Willsher\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/kim-willsher\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/kim-willsher\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Kim Willsher is an award-winning foreign correspondent based in Paris</p>\",\n" +
+            "            \"bylineImageUrl\": \"https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/9/30/1317399986248/kim.jpg\",\n" +
+            "            \"firstName\": \"willsher\",\n" +
+            "            \"lastName\": \"kim\"\n" +
+            "          },\n" +
+            "          {\n" +
+            "            \"id\": \"profile/jennifer-rankin\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Jennifer Rankin\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/jennifer-rankin\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/jennifer-rankin\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bylineImageUrl\": \"https://uploads.guim.co.uk/2017/12/26/Jennifer-Rankin.jpg\",\n" +
+            "            \"bylineLargeImageUrl\": \"https://uploads.guim.co.uk/2017/12/26/Jennifer_Rankin,_L.png\",\n" +
+            "            \"firstName\": \"Jennifer\",\n" +
+            "            \"lastName\": \"Rankin\"\n" +
+            "          }\n" +
+            "        ],\n" +
             "        \"isHosted\": false,\n" +
-            "        \"pillarId\": \"pillar/lifestyle\",\n" +
-            "        \"pillarName\": \"Lifestyle\"\n" +
+            "        \"pillarId\": \"pillar/news\",\n" +
+            "        \"pillarName\": \"News\"\n" +
             "      },\n" +
             "      {\n" +
-            "        \"id\": \"travel/2020/may/16/pico-iyer-how-stopover-at-tokyo-airport-japan-changed-my-life\",\n" +
+            "        \"id\": \"football/2020/apr/05/finishing-school-fortuna-sittard-young-players-brighton-george-cox-english-youngsters-abroad\",\n" +
             "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"travel\",\n" +
-            "        \"sectionName\": \"Travel\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:23Z\",\n" +
-            "        \"webTitle\": \"How a stopover at Tokyo airport changed my life | Pico Iyer\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/travel/2020/may/16/pico-iyer-how-stopover-at-tokyo-airport-japan-changed-my-life\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/travel/2020/may/16/pico-iyer-how-stopover-at-tokyo-airport-japan-changed-my-life\",\n" +
+            "        \"sectionId\": \"football\",\n" +
+            "        \"sectionName\": \"Football\",\n" +
+            "        \"webPublicationDate\": \"2020-04-05T11:00:26Z\",\n" +
+            "        \"webTitle\": \"Finishing school: how Fortuna Sittard are giving a boost to young careers\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/football/2020/apr/05/finishing-school-fortuna-sittard-young-players-brighton-george-cox-english-youngsters-abroad\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/football/2020/apr/05/finishing-school-fortuna-sittard-young-players-brighton-george-cox-english-youngsters-abroad\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/will-unwin\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Will Unwin\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/will-unwin\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/will-unwin\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Will is a freelance journalist</p>\"\n" +
+            "          }\n" +
+            "        ],\n" +
             "        \"isHosted\": false,\n" +
-            "        \"pillarId\": \"pillar/lifestyle\",\n" +
-            "        \"pillarName\": \"Lifestyle\"\n" +
+            "        \"pillarId\": \"pillar/sport\",\n" +
+            "        \"pillarName\": \"Sport\"\n" +
             "      },\n" +
             "      {\n" +
-            "        \"id\": \"books/2020/may/16/tired-of-conversation-a-secret-diary-is-a-great-emotional-outlet-just-ask-adrian-mole\",\n" +
+            "        \"id\": \"world/2019/oct/28/women-paid-less-than-men-over-careers-gender-pay-gap-report\",\n" +
             "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"books\",\n" +
-            "        \"sectionName\": \"Books\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:23Z\",\n" +
-            "        \"webTitle\": \"Tired of conversation? A secret diary is a great emotional outlet – just ask Adrian Mole\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/books/2020/may/16/tired-of-conversation-a-secret-diary-is-a-great-emotional-outlet-just-ask-adrian-mole\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/books/2020/may/16/tired-of-conversation-a-secret-diary-is-a-great-emotional-outlet-just-ask-adrian-mole\",\n" +
+            "        \"sectionId\": \"world\",\n" +
+            "        \"sectionName\": \"World news\",\n" +
+            "        \"webPublicationDate\": \"2019-10-28T12:17:53Z\",\n" +
+            "        \"webTitle\": \"Women paid £260,000 less than men over their careers – report\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/world/2019/oct/28/women-paid-less-than-men-over-careers-gender-pay-gap-report\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/world/2019/oct/28/women-paid-less-than-men-over-careers-gender-pay-gap-report\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/patrickcollinson\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Patrick Collinson\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/patrickcollinson\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/patrickcollinson\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Patrick Collinson is money editor of the Guardian and the newspaper's personal finance editor</p>\",\n" +
+            "            \"bylineImageUrl\": \"https://static.guim.co.uk/sys-images/Guardian/Pix/contributor/2014/5/23/1400851508217/Patrick-Collinson.jpg\",\n" +
+            "            \"bylineLargeImageUrl\": \"https://uploads.guim.co.uk/2017/10/09/Patrick-Collinson,-R.png\",\n" +
+            "            \"firstName\": \"Patrick \",\n" +
+            "            \"lastName\": \"Collinson\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"isHosted\": false,\n" +
+            "        \"pillarId\": \"pillar/news\",\n" +
+            "        \"pillarName\": \"News\"\n" +
+            "      },\n" +
+            "      {\n" +
+            "        \"id\": \"music/2019/nov/08/new-entry-at-84-why-are-one-directions-solo-careers-stalling\",\n" +
+            "        \"type\": \"article\",\n" +
+            "        \"sectionId\": \"music\",\n" +
+            "        \"sectionName\": \"Music\",\n" +
+            "        \"webPublicationDate\": \"2019-11-08T13:00:30Z\",\n" +
+            "        \"webTitle\": \"‘New entry at 84’: why are One Direction's solo careers stalling?\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/music/2019/nov/08/new-entry-at-84-why-are-one-directions-solo-careers-stalling\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/music/2019/nov/08/new-entry-at-84-why-are-one-directions-solo-careers-stalling\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/michaelcragg\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Michael Cragg\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/michaelcragg\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/michaelcragg\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Michael Cragg\\n is a music writer for the Guardian and Observer as well as contributing\\n to i-D, Fader and Q. He's also the editor of BEAT magazine.&nbsp; <br></p>\",\n" +
+            "            \"bylineImageUrl\": \"https://uploads.guim.co.uk/2019/06/28/Michael_Cragg.jpg\",\n" +
+            "            \"firstName\": \"Michael\",\n" +
+            "            \"lastName\": \"Cragg\"\n" +
+            "          }\n" +
+            "        ],\n" +
             "        \"isHosted\": false,\n" +
             "        \"pillarId\": \"pillar/arts\",\n" +
             "        \"pillarName\": \"Arts\"\n" +
             "      },\n" +
             "      {\n" +
-            "        \"id\": \"money/2020/may/16/should-i-book-a-summer-holiday-lockdown-cottage-campsite\",\n" +
+            "        \"id\": \"australia-news/2019/dec/05/the-block-star-scott-cam-to-be-paid-345000-as-national-careers-ambassador\",\n" +
             "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"money\",\n" +
-            "        \"sectionName\": \"Money\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:23Z\",\n" +
-            "        \"webTitle\": \"Should I book a summer holiday despite the lockdown?\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/money/2020/may/16/should-i-book-a-summer-holiday-lockdown-cottage-campsite\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/money/2020/may/16/should-i-book-a-summer-holiday-lockdown-cottage-campsite\",\n" +
-            "        \"isHosted\": false,\n" +
-            "        \"pillarId\": \"pillar/lifestyle\",\n" +
-            "        \"pillarName\": \"Lifestyle\"\n" +
-            "      },\n" +
-            "      {\n" +
-            "        \"id\": \"us-news/2020/may/16/coronavirus-pandemic-deaths-grieving-invisible\",\n" +
-            "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"us-news\",\n" +
-            "        \"sectionName\": \"US news\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:22Z\",\n" +
-            "        \"webTitle\": \"Invisible deaths: from nursing homes to prisons, the corona toll is out of sight – and out of mind?\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/us-news/2020/may/16/coronavirus-pandemic-deaths-grieving-invisible\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/us-news/2020/may/16/coronavirus-pandemic-deaths-grieving-invisible\",\n" +
-            "        \"isHosted\": false,\n" +
-            "        \"pillarId\": \"pillar/news\",\n" +
-            "        \"pillarName\": \"News\"\n" +
-            "      },\n" +
-            "      {\n" +
-            "        \"id\": \"money/2020/may/16/coronavirus-thousands-of-uk-students-caught-in-rent-trap-by-private-landlords\",\n" +
-            "        \"type\": \"article\",\n" +
-            "        \"sectionId\": \"money\",\n" +
-            "        \"sectionName\": \"Money\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T06:00:22Z\",\n" +
-            "        \"webTitle\": \"Thousands of UK students caught in rent trap by private landlords\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/money/2020/may/16/coronavirus-thousands-of-uk-students-caught-in-rent-trap-by-private-landlords\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/money/2020/may/16/coronavirus-thousands-of-uk-students-caught-in-rent-trap-by-private-landlords\",\n" +
-            "        \"isHosted\": false,\n" +
-            "        \"pillarId\": \"pillar/lifestyle\",\n" +
-            "        \"pillarName\": \"Lifestyle\"\n" +
-            "      },\n" +
-            "      {\n" +
-            "        \"id\": \"australia-news/live/2020/may/16/coronavirus-australia-live-news-restrictions-health-pandemic-pubs-scott-morrison-economic-nsw-qld-victoria-latest-updates\",\n" +
-            "        \"type\": \"liveblog\",\n" +
             "        \"sectionId\": \"australia-news\",\n" +
             "        \"sectionName\": \"Australia news\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T05:59:19Z\",\n" +
-            "        \"webTitle\": \"Coronavirus live Australia: 1m tests conducted nationally as restrictions eased in NSW, Queensland and Victoria – latest news\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/australia-news/live/2020/may/16/coronavirus-australia-live-news-restrictions-health-pandemic-pubs-scott-morrison-economic-nsw-qld-victoria-latest-updates\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/australia-news/live/2020/may/16/coronavirus-australia-live-news-restrictions-health-pandemic-pubs-scott-morrison-economic-nsw-qld-victoria-latest-updates\",\n" +
+            "        \"webPublicationDate\": \"2019-12-05T23:26:46Z\",\n" +
+            "        \"webTitle\": \"The Block star Scott Cam to be paid $345,000 as national careers ambassador\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/australia-news/2019/dec/05/the-block-star-scott-cam-to-be-paid-345000-as-national-careers-ambassador\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/australia-news/2019/dec/05/the-block-star-scott-cam-to-be-paid-345000-as-national-careers-ambassador\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/paul-karp\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Paul Karp\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/paul-karp\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/paul-karp\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Paul Karp is a reporter for Guardian Australia. Email: paul.karp@theguardian.com</p>\",\n" +
+            "            \"bylineImageUrl\": \"https://static.guim.co.uk/sys-images/Guardian/Pix/contributor/2016/2/11/1455181696016/Paul-Karp.jpg\",\n" +
+            "            \"bylineLargeImageUrl\": \"https://uploads.guim.co.uk/2017/10/09/Paul-Karp,-L.png\",\n" +
+            "            \"firstName\": \"Paul\",\n" +
+            "            \"lastName\": \"Karp\",\n" +
+            "            \"twitterHandle\": \"Paul_Karp\"\n" +
+            "          }\n" +
+            "        ],\n" +
             "        \"isHosted\": false,\n" +
             "        \"pillarId\": \"pillar/news\",\n" +
             "        \"pillarName\": \"News\"\n" +
             "      },\n" +
             "      {\n" +
-            "        \"id\": \"world/live/2020/may/16/coronavirus-live-news-us-deaths-headed-for-100000-by-june-brazil-health-minister-resigns\",\n" +
-            "        \"type\": \"liveblog\",\n" +
-            "        \"sectionId\": \"world\",\n" +
-            "        \"sectionName\": \"World news\",\n" +
-            "        \"webPublicationDate\": \"2020-05-16T05:50:50Z\",\n" +
-            "        \"webTitle\": \"Coronavirus live news: Democrats pass House bill calling for $3tn stimulus, Brazil health minister quits\",\n" +
-            "        \"webUrl\": \"https://www.theguardian.com/world/live/2020/may/16/coronavirus-live-news-us-deaths-headed-for-100000-by-june-brazil-health-minister-resigns\",\n" +
-            "        \"apiUrl\": \"https://content.guardianapis.com/world/live/2020/may/16/coronavirus-live-news-us-deaths-headed-for-100000-by-june-brazil-health-minister-resigns\",\n" +
+            "        \"id\": \"sport/2019/nov/12/richard-hadlee-brilliance-bravado-cricket-career-the-spin\",\n" +
+            "        \"type\": \"article\",\n" +
+            "        \"sectionId\": \"sport\",\n" +
+            "        \"sectionName\": \"Sport\",\n" +
+            "        \"webPublicationDate\": \"2019-11-12T11:09:54Z\",\n" +
+            "        \"webTitle\": \"The Spin | Richard Hadlee put brilliance above bravado in one of the greatest careers\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/sport/2019/nov/12/richard-hadlee-brilliance-bravado-cricket-career-the-spin\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/sport/2019/nov/12/richard-hadlee-brilliance-bravado-cricket-career-the-spin\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/danielharris\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Daniel Harris\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/danielharris\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/danielharris\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Daniel Harris was nominated for columnist of the year at the 2015 SJA awards. He has written two books,&nbsp;<a href=\\\"http://www.amazon.co.uk/On-Road-Journey-Through-Season-x/dp/0956594409/\\\">On The Road, a journey through a  season</a> and <a href=\\\"http://www.amazon.co.uk/Promised-Land-Manchester-Uniteds-Historic/dp/1909715050/ref=asap_bc?ie=UTF8\\\">The Promised Land</a>;&nbsp;helped Kevin Pietersen with&nbsp;<a href=\\\"https://www.amazon.co.uk/Kevin-Pietersen-Cricket-toughest-opponents/dp/0751562041\\\">Kevin Pietersen on Cricket</a>; and co-directed <a href=\\\"https://www.amazon.co.uk/House-Flying-Arrows-Daniel-Mendelle/dp/B01KO7G9CQ/ref=sr_1_1?s=dvd&amp;ie=UTF8&amp;qid=1490024666&amp;sr=1-1&amp;keywords=house+of+flying+arrows\\\">House of Flying Arrows</a> for Universal Pictures. He is now co-writing a <a href=\\\"http://www.boxingnews24.com/2017/04/fulwell-73-announce-benn-v-eubank-biopic/\\\">scripted feature on the lives of Nigel Benn and Chris Eubank</a> for Lorton Entertaniment</p>\",\n" +
+            "            \"bylineImageUrl\": \"https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/4/5/1302019018185/Daniel_Harries.jpg\",\n" +
+            "            \"firstName\": \"harris\",\n" +
+            "            \"lastName\": \"\",\n" +
+            "            \"twitterHandle\": \"DanielHarris\"\n" +
+            "          }\n" +
+            "        ],\n" +
             "        \"isHosted\": false,\n" +
-            "        \"pillarId\": \"pillar/news\",\n" +
-            "        \"pillarName\": \"News\"\n" +
+            "        \"pillarId\": \"pillar/sport\",\n" +
+            "        \"pillarName\": \"Sport\"\n" +
+            "      },\n" +
+            "      {\n" +
+            "        \"id\": \"film/filmblog/2020/feb/06/kirk-douglas-a-career-in-clips\",\n" +
+            "        \"type\": \"article\",\n" +
+            "        \"sectionId\": \"film\",\n" +
+            "        \"sectionName\": \"Film\",\n" +
+            "        \"webPublicationDate\": \"2020-02-06T06:00:31Z\",\n" +
+            "        \"webTitle\": \"Kirk Douglas: a career in clips\",\n" +
+            "        \"webUrl\": \"https://www.theguardian.com/film/filmblog/2020/feb/06/kirk-douglas-a-career-in-clips\",\n" +
+            "        \"apiUrl\": \"https://content.guardianapis.com/film/filmblog/2020/feb/06/kirk-douglas-a-career-in-clips\",\n" +
+            "        \"tags\": [\n" +
+            "          {\n" +
+            "            \"id\": \"profile/andrewpulver\",\n" +
+            "            \"type\": \"contributor\",\n" +
+            "            \"webTitle\": \"Andrew Pulver\",\n" +
+            "            \"webUrl\": \"https://www.theguardian.com/profile/andrewpulver\",\n" +
+            "            \"apiUrl\": \"https://content.guardianapis.com/profile/andrewpulver\",\n" +
+            "            \"references\": [],\n" +
+            "            \"bio\": \"<p>Andrew Pulver is Film editor, guardian.co.uk</p>\",\n" +
+            "            \"bylineImageUrl\": \"https://static.guim.co.uk/sys-images/Guardian/Pix/contributor/2015/9/30/1443601844139/Andrew-Pulver.jpg\",\n" +
+            "            \"bylineLargeImageUrl\": \"https://uploads.guim.co.uk/2017/10/06/Andrew-Pulver,-L.png\",\n" +
+            "            \"firstName\": \"pulver\",\n" +
+            "            \"lastName\": \"\",\n" +
+            "            \"twitterHandle\": \"Andrew_Pulver\"\n" +
+            "          }\n" +
+            "        ],\n" +
+            "        \"isHosted\": false,\n" +
+            "        \"pillarId\": \"pillar/arts\",\n" +
+            "        \"pillarName\": \"Arts\"\n" +
             "      }\n" +
             "    ]\n" +
             "  }\n" +
