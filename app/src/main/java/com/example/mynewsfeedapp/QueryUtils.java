@@ -376,20 +376,6 @@ public class QueryUtils {
                 String date = currentNews.getString("webPublicationDate");
                 String url = currentNews.getString("webUrl");
 
-                // For a given news, if it contains the key called "tags", extract JSONArray
-                // associated with the key "tags"
-                /*
-                String author = null;
-                if (currentNews.has("tags")) {
-                    // Extract the JSONArray associated with the key called "tags"
-                    JSONArray tagsArray = currentNews.getJSONArray("tags");
-                    if (tagsArray.length() != 0) {
-                        // Extract the first JSONObject in the tagsArray
-                        JSONObject firstTagsItem = tagsArray.getJSONObject(0);
-                        // Extract the value for the key called "webTitle"
-                        author = firstTagsItem.getString("webTitle");
-                    }
-                }*/
                 // If the news contains the key called "tags" array to extract the author,
                 // than extract using  JSONArray associated with the key "tags"
                 String author=null;
@@ -401,7 +387,6 @@ public class QueryUtils {
                         author = authorName.getString("webTitle");
                     }
                 }
-
 
                 // Create a new {@link NewsFeed} object
                 News newsList =  new News(title, news, date, author, url);
