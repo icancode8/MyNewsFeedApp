@@ -13,7 +13,7 @@ public class QueryUtils {
 
     /** Sample JSON response for 'the guardian' query
      * For the author details to show, you need to use the "show-tags-contributor" parameter in your URL.*/
-
+/*
     private static final String JSON_RESPONSE = "{\n" +
             "  \"response\": {\n" +
             "    \"status\": \"ok\",\n" +
@@ -326,6 +326,7 @@ public class QueryUtils {
             "    ]\n" +
             "  }\n" +
             "}";
+             */
     /**
      * PRIVATE CONSTRUCTOR
      * is created because no one should ever create a {@link QueryUtils} object.
